@@ -1,0 +1,97 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1792032849966,
+      "tag": "0000_auth-schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792070498426,
+      "tag": "0001_add-hotels",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1792071810600,
+      "tag": "0002_add-room-types-and-rooms",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1792072596172,
+      "tag": "0003_add-room-rates",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1792073989060,
+      "tag": "0004_add-hotel-images",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1792074519690,
+      "tag": "0005_add-hotel-amenities",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1792075508427,
+      "tag": "0006_add-bookings",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1792076674846,
+      "tag": "0007_add-booking-room-active",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1792076902017,
+      "tag": "0008_prevent-room-double-booking",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1792077855943,
+      "tag": "0009_panoramic_franklin_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1792110887017,
+      "tag": "0010_sharp_hemingway",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1792115576324,
+      "tag": "0011_prevent-overlapping-room-rates",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1792132315328,
+      "tag": "0012_add-admin-role-fields",
+      "breakpoints": true
+    }
+  ]
+}

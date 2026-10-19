@@ -1,0 +1,1 @@
+ALTER TABLE "booking_rooms" ADD COLUMN "is_active" boolean DEFAULT true NOT NULL;

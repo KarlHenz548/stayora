@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
+/* Brand colors and light theme */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+
+  --stayora-primary: #425b9a;
+  --stayora-sky: #76c0ec;
+  --stayora-cream: #fff6dc;
+  --stayora-pink: #ff95a5;
+
+  --background: #fff6dc;
+  --foreground: #171b2b;
+  --surface: #ffffff;
+  --border: #e7dfc9;
+  --muted: #626b7e;
+
+  --stayora-shadow-card: 0 8px 24px rgb(23 27 43 / 8%);
 }
 
+/* Dark theme */
+.dark {
+  color-scheme: dark;
+
+  --background: #171b2b;
+  --foreground: #fff6dc;
+  --surface: #22283b;
+  --border: #394158;
+  --muted: #b6bfd3;
+
+  --stayora-shadow-card: 0 8px 24px rgb(0 0 0 / 20%);
+}
+
+/* Tailwind CSS v4 design tokens */
 @theme inline {
+  --color-stayora-primary: var(--stayora-primary);
+  --color-stayora-sky: var(--stayora-sky);
+  --color-stayora-cream: var(--stayora-cream);
+  --color-stayora-pink: var(--stayora-pink);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --radius-card: 1rem;
+  --radius-control: 0.75rem;
+
+  --shadow-card: var(--stayora-shadow-card);
 }
 
 body {
+  min-height: 100vh;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
