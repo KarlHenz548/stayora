@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Stayora",
-  description: "Hotel booking system - karl hen'z",
+  description: "Hotel booking platform",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
